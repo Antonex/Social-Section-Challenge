@@ -1,0 +1,151 @@
+:root {
+--Very-Dark-Magenta: hsl(300, 43%, 22%);
+--Soft-Pink: hsl(333, 80%, 67%);
+--Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+--Light-Grayish-Magenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+--Font-size: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--White);
+    font-family: 'Spartan', sans-serif;
+}
+
+.main-container {
+    display: grid;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.main-container .content-box {
+    display: flex;
+    background: url(/images/bg-pattern-top-desktop.svg);
+    object-fit: cover;
+    padding: 80px 80px 0px 80px;
+}
+
+.main-container .content-box .product {
+    width: 100%;
+}
+
+.main-container .content-box .product .heading {
+    color: var(--Very-Dark-Magenta);
+    width: 70%;
+    font-size: 3rem;
+}
+
+.main-container .content-box .product .info {
+    color: var(--Dark-Grayish-Magenta);
+    width: 70%;
+    padding: 5px 0 0 0;
+}
+
+.main-container .content-box .reviews {
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+}
+
+.main-container .content-box .reviews .review-box img {
+    height: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.main-container .content-box .reviews .review-box {
+    display: flex;
+    padding: 18px;
+    width: 320px;
+    background: var(--Light-Grayish-Magenta);
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.main-container .content-box .reviews .review-box .text {
+    padding-left: 10px;
+    color: var(--Very-Dark-Magenta);
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.main-container .content-box .reviews .bx1 {
+    margin-left: 15%;
+}
+
+.main-container .content-box .reviews .bx2 {
+    margin-left: 25%;
+}
+
+.main-container .content-box .reviews .bx3 {
+    margin-left: 35%;
+}
+
+.main-container .cards .profile-card {
+    height: 200px;
+    width: 280px;
+    background-color: var(--Very-Dark-Magenta);
+    padding: 30px;
+}
+
+.main-container .cards .profile-card .img-holder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-container .cards .profile-card .img-holder img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.main-container .cards .profile-card .img-holder .name {
+    padding-left: 20px;
+    color: var(--White);
+}
+
+.main-container .cards .profile-card .img-holder span {
+    color: var(--Soft-Pink);
+}
+
+.main-container .cards .profile-card .review {
+    padding-top: 40px;
+    color: var(--White);
+    font-weight: 500;
+}
+
+.main-container .cards 
+.card-1, .card-2, .card-3 {
+    border-radius: 10px;
+}
+
+.main-container .cards {
+    background: url(/images/bg-pattern-bottom-desktop.svg);
+    object-fit: cover;
+    padding: 0 80px 80px 80px;
+}
+
+.main-container .cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container .cards .card-1 {
+    margin-top: 5%;
+} 
+
+.main-container .cards .card-2 {
+    margin-top: 8%;
+} 
+
+.main-container .cards .card-3 {
+    margin-top: 11%;
+} 

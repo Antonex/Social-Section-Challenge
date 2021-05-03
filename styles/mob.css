@@ -1,0 +1,86 @@
+@media  all and (max-width: 768px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: -50px 0px 0px -50px;
+        margin: 0 auto;
+    }
+
+    .main-container {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .main-container .content-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        background: url(/images/bg-pattern-top-mobile.svg);
+    }
+
+    .main-container .content-box .product .info {
+        color: var(--Dark-Grayish-Magenta);
+        width: 70%;
+        padding: 5px 0 0 0;
+        text-align: center;
+    }
+    
+    
+    .main-container .content-box .reviews {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .main-container .content-box .reviews .review-box {
+        display: flex;
+        margin: 5px auto;
+        width: 100%;
+    }
+
+    .main-container .content-box .reviews .review-box img {
+        display: flex;
+        height: 10px;
+        width: 10px;
+    }
+
+    .main-container .content-box .reviews 
+    .bx1, .bx2, .bx3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-container .content-box .reviews .review-box p{
+        display: inline-block;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .main-container .content-box .reviews .review-box .stars {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cards {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        background: url(/images/bg-pattern-bottom-mobile.svg);
+        margin: 0 auto;
+    }
+
+    .main-container .cards .profile-card {
+        width: 200px;
+    }
+
+}    
